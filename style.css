@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  padding: 5px 5px;
+  background: #555;
+  color: #00ff00;
+}
+
+
+.content {
+  padding: 16px;
+  background: #f8f8ff;
+  background: linear-gradient(45deg, #7cfc00, #f8f8ff);
+}
+
+
+img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.content,h3, h4, p{
+    text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* Untuk Slide foto */
+
+.mySlides {
+ display: none;
+  } 
+.prev, .next {
+   cursor: pointer; 
+   position: absolute; 
+   top: 50%; 
+   width: auto; 
+   margin-top: -120px; 
+   padding-left: 10px; 
+   padding-right: px; 
+   padding-bottom: 10px; 
+   color: #A371D1; 
+   font-weight: bold; 
+   font-size: 60px; 
+   transition: 0.5s ease; 
+   border-radius: 0 15px 15px 0;
+} 
+.next { 
+   right: 0px; 
+   border-radius: 15px 0px 0px 15px; 
+}
+.prev:hover, .next:hover {
+   background-color: white; 
+}
